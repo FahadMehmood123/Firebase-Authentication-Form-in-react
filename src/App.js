@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Form">
+      <h2>Firebase-Authentication Form</h2>
+      <label>User Name</label><br></br>
+      <input id="int1" type="text"></input><br></br>
+      <label>Password</label><br></br>
+      <input id="int2" type="password"></input><br></br>
+      <input id="submit" type="submit" value="submit"></input><br></br>
     </div>
   );
 }
